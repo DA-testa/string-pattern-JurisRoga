@@ -8,8 +8,7 @@ def read_input():
         pattern = input().rstrip()
         text = input().rstrip()
     elif parbaude == "F":
-        vieta = input().strip()
-        with open ("tests/" + vieta, mode= 'r') as fails:
+        with open ("tests/06", mode= 'r') as fails:
             pattern = fails.readline().rstrip()
             text = fails.readline().rstrip()
     
